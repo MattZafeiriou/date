@@ -1,0 +1,46 @@
+* {
+    background-color: burlywood;
+}
+
+body {
+    margin-top: 10rem;
+}
+
+.mid {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+button {
+    transition-duration: .3s;
+    color: black;
+    background-color: red;
+    border: none;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: rgb(200,50,50);
+}
+
+#one {
+    position: absolute;
+    top: 550px;
+    left: calc(50% - 20px - 10rem);
+}
+
+#two {
+    position: absolute;
+    top: 550px;
+    left: calc(50% + 20px);
+}
